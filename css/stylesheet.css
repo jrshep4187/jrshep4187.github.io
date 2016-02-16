@@ -127,12 +127,20 @@ header{
   background-color: #778899;
 }
 
-.foot{
+.ft{
   color: black;
-  width: 1200px;
+  width: 100%;
   margin: 0px auto;
   overflow: hidden;
   background-color: #778899;
+}
+
+#foot {
+    text-align: center;
+    color: black;
+    background-color: #778899;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .blog-1, .blog-2, .blog-3 {
@@ -181,13 +189,6 @@ header{
   height: 200px;
 }
 
-#foot{
-  text-align: center;
-  color: black;
-  background-color: #778899;
-  width: 100%;
-  margin: 0px auto;
-}
 
 .au{
   text-align: center;
