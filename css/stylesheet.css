@@ -6,18 +6,18 @@ Secondary color:
 Third Color:
 */
 body{
-  height: 1000px;
+  height:auto;
   width: auto;
   margin: 0px;
   padding: 0px;
   font-family: verdana, geneva, sans-serif;
-  background-image: url(../img/blue.jpg);
+  background-image: url(../img/valley.jpg);
+  color: black;
   }
 
 
 h1, h2, h3,{
-
-  margin: 0px
+  margin: 0px;
 }
 
 a{
@@ -31,28 +31,29 @@ ul{
 
 /*HEADER STYLES*/
 header{
-  height: 120px;
+  height: 200px;
+  width: auto;
   background-color: #00bfff;
+  text-align: left;
+  border-style: solid;
+  border-width: thin;
 }
 
 #logo{
-  width: 300px;
+  width: 100%;
   position: absolute;
   top: 35px;
   left: 100px;
 }
 
 #logo h1:hover{
-  color: #00ff00
+  color: silver;
 }
 
 #menu{
-  position: absolute;
+  position: fixed;
   top: 35px;
   right: 100px;
-}
-
-#menu{
   float: right;
 }
 
@@ -75,87 +76,165 @@ header{
 }
 
 #menu a:hover{
-  color: #00ff00
+  color: silver;
 }
 
 /*BANNER STYLES*/
 
-#banner-home{
-  height: 250px;
-  background-color: #dddddd;
-  background-size: cover;
-  background-color:#3454aa;
+.sc {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #778899;
+  margin-top: 0px;
+  border-style: solid;
+  border-bottom-width: thin;
+  border-top: none;
+  padding-top: 60px;
+  }
+
+
+
+.button{
+  box-shadow: 20px;
+  border-style: solid;
+  border-width: thin;
+  margin: auto;
 }
 
-#banner-home h1{
+
+#banner-home {
+  height: 150px;
+  width: 100%;
   text-align: center;
-  padding: 90px 0px;
-  color: white;
-  }
-.button{
-  box-shadow: 10px;
+  background-color: #778899;
+  margin-top: 0px;
+  border-style: solid;
+  border-bottom-width: thin;
+  border-top: none;
 }
+
+
   /*Blog Styles*/
-.container{
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-  color: white;
-}
+
 
 .about-us{
-  width: 1200px;
-  margin: 0 auto;
+  height: auto;
+  width: 100%;
   overflow: hidden;
-  color: white;
+  color: black;
+  padding: 10px;
+  background-color: #778899;
 }
 
-footer{
-  color: white;
+.foot{
+  color: black;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
   overflow: hidden;
+  background-color: #778899;
 }
 
 .blog-1, .blog-2, .blog-3 {
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-  color: white;
+  float: left;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin-left: 115px;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: thin;
 }
 
-.blog-image{
+.container{
+  width: auto;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.cl{
+  height: 300px;
+  width: 300px;
+}
+
+.blog-1 {
+  background-color: #778899;
+  background-size: cover;
+  color: black;
+}
+
+.blog-2 {
+  background-color: #778899;
+  background-size: cover;
+  color: black;
+}
+
+
+.blog-3 {
+  background-color: #778899;
+  background-size: cover;
+  color: black;
+}
+
+.blog-image {
   width: 350px;
   height: 200px;
 }
 
+#foot{
+  text-align: center;
+  color: black;
+  background-color: #778899;
+  width: 100%;
+  margin: 0px auto;
+}
+
 .au{
-  width: 1200px;
-  margin: 0 auto;
-  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #778899;
+  clear: left;
 }
 
-.foot{
+#us {
   text-align: center;
-  color: white;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  background-color: #778899;
+  border: 2px solid black;
+  border-radius: 4px;
+
 }
 
-#blog {
-  text-align: center;
+.blog {
+  text-align: left;
   margin: 10px;
 }
 
 .button{
   padding: 15px 35px;
   background-color: silver;
-  border: 2px;
   border-radius: 8px;
   display: inline-block;
   font-weight: 700;
   margin: 10px 0px;
+  box-shadow: 20px;
+  text-align: center;
 }
 
 .button:hover{
   color: white;
   background-color: black;
+}
+
+img {
+  opacity: .04;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
